@@ -52,6 +52,7 @@ nnoremap <leader>e :e
 nnoremap <leader>l :ls<cr>
 nnoremap <leader>n :bn<cr>
 nnoremap <leader>p "*p
+nnoremap <leader>P "*P
 nnoremap <leader>q :q<cr>
 nnoremap <leader>s :w<cr>
 nnoremap <leader>t :terminal<cr>
@@ -65,5 +66,4 @@ tnoremap <c-up> <c-\><c-n><c-w><c-k>
 tnoremap <esc> <c-\><c-n>
 vmap <leader>* *N
 vnoremap <cr> :
-vnoremap <leader>p "*p
 vnoremap <leader>y "*y
