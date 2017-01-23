@@ -57,6 +57,7 @@ nnoremap <leader>s :w<cr>
 nnoremap <leader>t :terminal<cr>
 nnoremap <leader>w :bd<cr>
 nnoremap <leader>y "*y
+nnoremap <leader>a gg"*yG<c-o><c-o>
 tnoremap <c-down> <c-\><c-n><c-w><c-j>
 tnoremap <c-left> <c-\><c-n><c-w><c-h>
 tnoremap <c-right> <c-\><c-n><c-w><c-l>
