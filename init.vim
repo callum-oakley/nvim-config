@@ -33,11 +33,6 @@ vnoremap <silent> # :<C-U>
   \gV:call setreg('"', old_reg, old_regtype)<CR><Paste>
 
 " keymaps
-nnoremap l gn
-nnoremap h gN
-nnoremap k "_d
-nnoremap kk "_dd
-nnoremap j <c-o>
 nnoremap <c-down> <c-w><c-j>
 nnoremap <c-left> <c-w><c-h>
 nnoremap <c-right> <c-w><c-l>
@@ -52,19 +47,25 @@ nnoremap <leader><tab> :b#<cr>
 nnoremap <leader><up> :above sp<cr>
 nnoremap <leader>= <c-w>=
 nnoremap <leader>N :bp<cr>
+nnoremap <leader>P "*P
+nnoremap <leader>ad :%d*<cr>
+nnoremap <leader>ak :%d_<cr>
+nnoremap <leader>ay :%y*<cr>
 nnoremap <leader>b :b 
 nnoremap <leader>e :e 
 nnoremap <leader>l :ls<cr>
 nnoremap <leader>n :bn<cr>
 nnoremap <leader>p "*p
-nnoremap <leader>P "*P
 nnoremap <leader>q :q<cr>
 nnoremap <leader>s :w<cr>
 nnoremap <leader>t :terminal<cr>
 nnoremap <leader>w :bd<cr>
 nnoremap <leader>y "*y
-nnoremap <leader>ay :%y*<cr>
-nnoremap <leader>ad :%d*<cr>
+nnoremap h gN
+nnoremap j <c-o>
+nnoremap k "_d
+nnoremap kk "_dd
+nnoremap l gn
 tnoremap <c-down> <c-\><c-n><c-w><c-j>
 tnoremap <c-left> <c-\><c-n><c-w><c-h>
 tnoremap <c-right> <c-\><c-n><c-w><c-l>
