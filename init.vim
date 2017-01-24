@@ -61,11 +61,11 @@ nnoremap <leader>s :w<cr>
 nnoremap <leader>t :terminal<cr>
 nnoremap <leader>w :bd<cr>
 nnoremap <leader>y "*y
-nnoremap h gN
+nnoremap h cgN
 nnoremap j <c-o>
 nnoremap k "_d
 nnoremap kk "_dd
-nnoremap l gn
+nnoremap l cgn
 tnoremap <c-down> <c-\><c-n><c-w><c-j>
 tnoremap <c-left> <c-\><c-n><c-w><c-h>
 tnoremap <c-right> <c-\><c-n><c-w><c-l>
