@@ -33,6 +33,7 @@ vnoremap <silent> # :<C-U>
   \gV:call setreg('"', old_reg, old_regtype)<CR><Paste>
 
 " keymaps
+nmap j ys
 nnoremap <c-down> <c-w><c-j>
 nnoremap <c-left> <c-w><c-h>
 nnoremap <c-right> <c-w><c-l>
@@ -61,8 +62,8 @@ nnoremap <leader>s :w<cr>
 nnoremap <leader>t :terminal<cr>
 nnoremap <leader>w :bd<cr>
 nnoremap <leader>y "*y
+nnoremap Y y$
 nnoremap h cgN
-nnoremap j <c-o>
 nnoremap k "_d
 nnoremap kk "_dd
 nnoremap l cgn
