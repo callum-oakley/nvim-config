@@ -36,6 +36,7 @@ vnoremap <silent> # :<C-U>
 nnoremap l gn
 nnoremap h gN
 nnoremap k "_d
+nnoremap kk "_dd
 nnoremap j <c-o>
 nnoremap <c-down> <c-w><c-j>
 nnoremap <c-left> <c-w><c-h>
