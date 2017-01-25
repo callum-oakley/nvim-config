@@ -1,5 +1,6 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 set breakindent
