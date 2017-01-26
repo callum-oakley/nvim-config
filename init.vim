@@ -8,6 +8,8 @@ set linebreak
 set relativenumber
 set ruler
 set showcmd
+set list
+set listchars=tab:▸·,trail:·
 
 " tabs
 set expandtab
