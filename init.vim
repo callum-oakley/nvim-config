@@ -57,6 +57,7 @@ nnoremap <leader>ad :%d*<cr>
 nnoremap <leader>ak :%d_<cr>
 nnoremap <leader>ay :%y*<cr>
 nnoremap <leader>b :b 
+nnoremap <leader>d :m+<cr>
 nnoremap <leader>e :e 
 nnoremap <leader>l :ls<cr>
 nnoremap <leader>n :bn<cr>
@@ -65,6 +66,7 @@ nnoremap <leader>p "*p
 nnoremap <leader>q :q<cr>
 nnoremap <leader>s :w<cr>
 nnoremap <leader>t :terminal<cr>
+nnoremap <leader>u :m--<cr>
 nnoremap <leader>w :bd<cr>
 nnoremap <leader>y "*y
 nnoremap Y y$
