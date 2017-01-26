@@ -78,3 +78,5 @@ tnoremap <esc> <c-\><c-n>
 vmap <leader>* *N
 vnoremap <cr> :
 vnoremap <leader>y "*y
+vnoremap k "_d
+vnoremap kk "_dd
