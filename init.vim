@@ -37,18 +37,22 @@ vnoremap <silent> # :<C-U>
 
 " keymaps
 nmap j ys
-nnoremap <c-down> <c-w><c-j>
-nnoremap <c-left> <c-w><c-h>
-nnoremap <c-right> <c-w><c-l>
-nnoremap <c-up> <c-w><c-k>
+nnoremap <c-down> :m+<cr>
+nnoremap <c-left> <<
+nnoremap <c-right> >>
+nnoremap <c-up> :m--<cr>
 nnoremap <cr> :
 nnoremap <esc> :noh<cr><esc>
 nnoremap <leader>* *N
-nnoremap <leader><down> :below sp<cr>
-nnoremap <leader><left> :above vsp<cr>
-nnoremap <leader><right> :below vsp<cr>
+nnoremap <leader><c-down> :below sp<cr>
+nnoremap <leader><c-left> :above vsp<cr>
+nnoremap <leader><c-right> :below vsp<cr>
+nnoremap <leader><c-up> :above sp<cr>
+nnoremap <leader><down> <c-w><c-j>
+nnoremap <leader><left> <c-w><c-h>
+nnoremap <leader><right> <c-w><c-l>
 nnoremap <leader><tab> :b#<cr>
-nnoremap <leader><up> :above sp<cr>
+nnoremap <leader><up> <c-w><c-k>
 nnoremap <leader>= <c-w>=
 nnoremap <leader>N :bp<cr>
 nnoremap <leader>O O<esc>O
@@ -57,7 +61,6 @@ nnoremap <leader>ad :%d*<cr>
 nnoremap <leader>ak :%d_<cr>
 nnoremap <leader>ay :%y*<cr>
 nnoremap <leader>b :b 
-nnoremap <leader>d :m+<cr>
 nnoremap <leader>e :e 
 nnoremap <leader>l :ls<cr>
 nnoremap <leader>n :bn<cr>
@@ -66,7 +69,6 @@ nnoremap <leader>p "*p
 nnoremap <leader>q :q<cr>
 nnoremap <leader>s :w<cr>
 nnoremap <leader>t :terminal<cr>
-nnoremap <leader>u :m--<cr>
 nnoremap <leader>w :bd<cr>
 nnoremap <leader>y "*y
 nnoremap Y y$
