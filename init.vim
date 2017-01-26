@@ -51,6 +51,7 @@ nnoremap <leader><tab> :b#<cr>
 nnoremap <leader><up> :above sp<cr>
 nnoremap <leader>= <c-w>=
 nnoremap <leader>N :bp<cr>
+nnoremap <leader>O O<esc>O
 nnoremap <leader>P "*P
 nnoremap <leader>ad :%d*<cr>
 nnoremap <leader>ak :%d_<cr>
@@ -59,6 +60,7 @@ nnoremap <leader>b :b
 nnoremap <leader>e :e 
 nnoremap <leader>l :ls<cr>
 nnoremap <leader>n :bn<cr>
+nnoremap <leader>o o<esc>O
 nnoremap <leader>p "*p
 nnoremap <leader>q :q<cr>
 nnoremap <leader>s :w<cr>
