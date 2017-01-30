@@ -75,6 +75,7 @@ nnoremap <leader>y "*y
 nnoremap Y y$
 nnoremap h cgN
 nnoremap k "_d
+nnoremap K "_D
 nnoremap kk "_dd
 nnoremap l cgn
 tnoremap <c-down> <c-\><c-n><c-w><c-j>
